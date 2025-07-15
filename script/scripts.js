@@ -26,7 +26,20 @@ buttons.forEach(button => {
     })
 })
 
-///
+const dateContainer = document.getElementById('todaysDate');
+
+const today = new Date();
+const days = ["Sun", "Mon", "Tue", "Wed", "Thus", "Fri", "Sat"];
+const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+const dayName = days[today.getDay()];
+const date = today.getDate();
+const month = months[today.getMonth()];
+const year = today.getFullYear();
+
+const fullDate = `${dayName}, ${date} ${month} ${year}`;
+
+dateContainer.innerText = fullDate;
+
 
 
 
