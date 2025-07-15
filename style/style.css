@@ -10,7 +10,7 @@ body{
     font-family: Poppins;
 }
 
-/* All Btn */
+
 
 .btn{
     padding: 0.5em 1em;
@@ -222,3 +222,13 @@ body{
     padding: 1em;
     margin-bottom: 1em;
 }
+.log-entry {
+  background-color: white;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
