@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 80%;
+    margin: 1em auto 2em;
+    background-color: rgb(244, 247, 255);
+    font-family: Poppins;
+}
+
+/* All Btn */
+
+.btn{
+    padding: 0.5em 1em;
+    background-color: rgb(55, 82, 253);
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.btnClr{
+    padding: 0.5em 1em;
+    background-color: rgb(55, 82, 253);
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.btn:hover{
+    background-color: blue;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.counter-container{
+    display: flex;
+    align-items: center;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    background-color: rgb(244, 247, 255);
+    border-radius: 1em;
+    margin-right: 0.5em;
+}
+
+.counter > div > img {
+    width: 60%;
+    height: auto;
+}
+
+.counter > p {
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.logo-container > p{
+    font-family: Poppins;
+    font-size: 1.5rem;
+}
+
+.logo-container > p > span{
+    font-weight: 600;
+}
+
+.logo-container > div > img{
+    width: 60%;
+    height: auto;
+}
+.theme-btn > img {
+    width: 60%;
+    height: auto;
+    cursor: pointer;
+}
+
+.task{
+    font-size: small;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+    margin-top: 1em;
+}
+.primary-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    flex-direction: column;
+}
+
+.primary-card-child-1{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.primary-card-child-2{
+    display: flex;
+    padding: 0.5em;
+    background-color: white;
+    margin-top: 1em;
+    justify-content: space-between;
+}
+.pcard-child{
+    background-color: rgb(244, 247, 255);
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.pcard-child > div > img{
+    width: 60%;
+    height: auto;
+}
+
+.pcard-child > a{
+    text-decoration: none;
+}
+.discover{
+    color: white;
+}
+.pcard-child-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pcard-child-2{
+    background-color: rgb(244, 247, 255);
+    padding: 1em;
+}
+.title{
+    background-color: white;
+    font-size: 0.7rem;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 300;
+}
+
+.heading{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.description{
+    font-size: 0.6rem;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 0.6em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 300;
+}
+
+.deadline{
+    font-size: 0.6rem;
+    font-weight: 300;
+}
+
+.time{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.margin{
+    margin: 0 1em;
+}
+.secondary-card{
+    padding: 1em;
+    background-color: white;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.Schild-1{
+    display: flex;
+}
+
+.Schild-1 > div > img{
+    width: 60%;
+    height: auto;
+}
+
+#pchild{
+    width: 50%;
+    background: linear-gradient(130.70deg, rgb(55, 82, 253) 0.419%,rgb(108, 127, 250) 52.66%,rgb(155, 168, 248) 99.733%);
+}
+
+.dcounter{
+    font-weight: 600;
+}
+
+.activitylog{
+    background-color: rgb(244, 247, 255);
+    padding: 1em;
+    margin-bottom: 1em;
+}
